@@ -5,7 +5,7 @@ public class Cluster
   public Cluster(int len, int x, int y)
   {
     // your code here
-    for (int i = 0; i < (2*3.14); i+=(2*3.14/7) {
+    for (int i = 0; i <= (2*3.14); i+=(2*6.28/7)) {
       new Tendril(len, i, x, y).show();
     }
   }
